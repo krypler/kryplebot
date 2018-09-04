@@ -28,15 +28,7 @@ module.exports.run = async (bot, message, args,) => {
             callback: (err, data) => {
                 console.log(err, data);
 
-                //let dfd = data[2];
-               // let btw = dfd
-              //  console.log(dfd.tournament.signUpUrl)
-
-                //let id = Number(args[0]);
-                
-               // let entry = (post => post.id === id)
-                //console.log(entry)
-                
+                       
         let embed =new Discord.RichEmbed()
             //.setAuthor("title")//Title top line can also add link
             .setTitle("Kryptoniks Brawlfest #3")//title second line link with .setURL()
